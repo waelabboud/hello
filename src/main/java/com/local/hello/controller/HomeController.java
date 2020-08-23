@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/hello")
     public String sayHello(){
-        return "Hey";
+        return "Hey v2";
     }
 
 }
