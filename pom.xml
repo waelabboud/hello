@@ -13,6 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello</name>
 	<description>Demo project for Spring Boot</description>
+	
+
+
 
 	<properties>
 		<java.version>11</java.version>
@@ -38,6 +41,9 @@
 	</dependencies>
 
 	<build>
+	
+		<finalName>docker-jenkins-integration-sample</finalName>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
